@@ -7,7 +7,7 @@ export default props => {
 
 	return (
 		<svg { ...otherProps }>
-      <use xlinkHref={ `#${ props.id }` } style={{ fill: props.color }} />
+      <use xlinkHref={ `${ props.id }` } style={{ fill: props.color }} />
 		</svg>
 	)
 }
